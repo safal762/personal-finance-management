@@ -1,11 +1,19 @@
-import { useState } from 'react'
+
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import{ Allchart, Footer, Header }from './components/index.js'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-  <div></div>
+  <div>
+    <Header/>
+    <main>
+      <Outlet/>
+    </main>
+    <Footer/>
+  </div>
   )
 }
 

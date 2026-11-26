@@ -1,8 +1,10 @@
-import React from 'react'
 
+import React from 'react'
 function Allchart() {
   return (
-    <div>Allchart</div>
+  <div>
+
+  </div>
   )
 }
 
