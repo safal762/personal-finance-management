@@ -5,6 +5,8 @@ import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Allchart from "./charts/Allchart";
 import SpendingCharts from "./charts/SpendingCharts";
+import Expense from "./forms/Expense";
+import Income from "./forms/Income";
 export{
     Button,
     Input,
@@ -12,5 +14,7 @@ export{
     Allchart,
     SpendingCharts,
     Header,
-    Footer
+    Footer,
+    Income,
+    Expense
 }
