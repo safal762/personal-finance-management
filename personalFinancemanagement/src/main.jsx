@@ -20,6 +20,7 @@ const router = createBrowserRouter(
         <Route path='income' index element={<Income/>}/>
             <Route path='expense' element={<Expense/>}/>
       </Route>
+   
     </Route>
   )
 )

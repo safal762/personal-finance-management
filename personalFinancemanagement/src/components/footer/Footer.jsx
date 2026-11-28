@@ -22,12 +22,6 @@ function Footer() {
         Home
       </Link>
 
-      <Link
-        to="/transactions"
-        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
-      >
-        Transactions
-      </Link>
 
       <Link
         to="/dashboard"

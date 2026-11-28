@@ -3,18 +3,9 @@ import {useSelector} from 'react-redux'
 import {PieChart,Pie,Cell,Tooltip} from 'recharts'
 function SpendingCharts() {
 const expenseData=useSelector((state)=>state.expense.expense)
-console.log("Expense data:", expenseData)
-console.log("Is array:", Array.isArray(expenseData))
 
-console.log(
-  "Total amount:",
-  expenseData.reduce((total, item) => total + Number(item.amount), 0)
-)
-console.log(expenseData.map(item => ({
-  amount: item.amount,
-  type: typeof item.amount,
-  category: item.catogery
-})))
+
+
   const categories = [
   { name: 'Food', color: '#FF6384' },
   { name: 'Rent', color: '#36A2EB' },
